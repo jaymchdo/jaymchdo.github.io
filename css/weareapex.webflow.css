@@ -9,23 +9,6 @@
   background-position: 50% 50%;
 }
 
-.w-embed-youtubevideo:empty {
-  min-height: 75px;
-  padding-bottom: 56.25%;
-}
-
-.w-layout-grid {
-  display: -ms-grid;
-  display: grid;
-  grid-auto-columns: 1fr;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-  grid-row-gap: 16px;
-  grid-column-gap: 16px;
-}
-
 a {
   color: #000;
   text-decoration: none;
@@ -37,42 +20,6 @@ a {
   background-color: transparent;
 }
 
-.slider-icon-circle {
-  width: 50px;
-  height: 50px;
-  padding: 6px;
-  font-size: 33px;
-}
-
-.slider-navigation {
-  font-size: 11px;
-}
-
-.slide {
-  padding-top: 82px;
-  padding-right: 85px;
-  padding-left: 85px;
-  background-color: #dbdbdb;
-  background-image: url('../images/honor-grads.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-}
-
-.slide.two {
-  background-color: #dbdbdb;
-  background-image: url('../images/lunchtime.jpg');
-  background-position: 50% 100%;
-}
-
-.slide-3 {
-  background-image: url('../images/kidslaughing-in-hallway_1.jpg');
-  background-position: 50% 62%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .div-block-6 {
   height: 5px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#13436f), to(#13436f));
@@ -82,21 +29,6 @@ a {
 .div-block-6.col {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#dcdcdc), to(#dcdcdc));
   background-image: linear-gradient(180deg, #dcdcdc, #dcdcdc);
-}
-
-.dropdown-link {
-  margin: 6px;
-  background-color: #2196f3;
-  color: #fff;
-}
-
-.dropdown-link:hover {
-  background-color: #1565c0;
-}
-
-.dropdown-link.w--current {
-  margin: 4px;
-  color: #fff;
 }
 
 .image {
@@ -124,59 +56,6 @@ a {
 
 .dropdown-list-2 {
   background-color: rgba(0, 0, 0, .53);
-}
-
-.dropdown-list-2.w--open {
-  background-color: transparent;
-}
-
-.dropdown-toggle {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 16px;
-  background-color: hsla(0, 0%, 100%, 0);
-}
-
-.navigation-link {
-  height: 60px;
-  padding-top: 36px;
-  padding-right: 58px;
-  padding-bottom: 59px;
-  color: #000;
-}
-
-.navigation-link:hover {
-  color: #000;
-}
-
-.navigation-link.w--current {
-  color: #000;
-}
-
-.navigation-link.enroll {
-  padding-right: 20px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#197bc9), to(#197bc9));
-  background-image: linear-gradient(180deg, #197bc9, #197bc9);
-  color: #fff;
-}
-
-.navigation-link.enroll:hover {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 62, 100, .42)), to(rgba(22, 62, 100, .42))), -webkit-gradient(linear, left top, left bottom, from(#197bc9), to(#197bc9));
-  background-image: linear-gradient(180deg, rgba(22, 62, 100, .42), rgba(22, 62, 100, .42)), linear-gradient(180deg, #197bc9, #197bc9);
-}
-
-.navigation-link.enroll.w--current {
-  padding-right: 20px;
-}
-
-.dropdown-list-3 {
-  background-color: rgba(0, 0, 0, .39);
-}
-
-.dropdown-list-3.w--open {
-  background-color: transparent;
 }
 
 .hero-buttons {
@@ -252,19 +131,6 @@ a {
   align-items: center;
 }
 
-.container.dp {
-  display: block;
-  max-width: 1000px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-}
-
-.container.athletic-program {
-  display: block;
-}
 
 .container.hero {
   display: -webkit-box;
@@ -273,25 +139,7 @@ a {
   display: flex;
 }
 
-.container.app-header {
-  color: #fff;
-}
 
-.container.alumni {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
-.container.teach {
-  display: block;
-}
-
-.container.nonflex {
-  display: block;
-}
 
 .div-block {
   display: -webkit-box;
